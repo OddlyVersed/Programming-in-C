@@ -14,3 +14,6 @@ int main()
     int sum=0;
      sum = a + b;
     printf("the addition of a and b is = %d\n",sum);
+     printf("\n--------------------------------\n");
+    return 0;
+}
