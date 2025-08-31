@@ -9,7 +9,7 @@ int main()
     printf("enter the value b = "); 
     scanf("%d",&b);
     int sum=0;
-    sum = a + b;
+     sum = a + b;
     printf("the addition of a and b is = %d\n",sum);
     int sub=0;
      sub = a - b;
@@ -18,7 +18,7 @@ int main()
       mul = a * b;
     printf("the multification of a and b is = %d\n",mul); 
     float div;
-    div = a / b;
+      div = (float)a / b;
     printf("the division of a and b is = %f",div);
     return 0;
 }
