@@ -13,3 +13,4 @@ int main()
     scanf("%d",&b);
     int sum=0;
      sum = a + b;
+    printf("the addition of a and b is = %d\n",sum);
