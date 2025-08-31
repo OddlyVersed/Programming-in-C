@@ -22,5 +22,6 @@ int main()
     float div;
       div = (float)a / b;
     printf("the division of a and b is = %f",div);
+     printf("\n--------------------------------\n");
     return 0;
 }
