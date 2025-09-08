@@ -1,1 +1,19 @@
+/*Experiment 2: Operators
+3. WAP a C program to calculate compound interest*/
+#include<stdio.h>
+#include <math.h>
+int main()
+{
+	float principle,rate,time,CI;
+	printf("Enter the principle rs/- ");
+	scanf("%f",&principle);
+	printf("Enter the rate = ");
+	scanf("%f",&rate);
+	printf("Enter the time in year = ");
+	scanf("%f",&time);
+	CI=(principle * pow((1+rate/100),time)- principle);
+	printf("the compound intrest is = %f rs", CI);
+	return 0;
+}
+
 
