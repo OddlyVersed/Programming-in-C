@@ -24,8 +24,8 @@ int main()
     } else {
         printf("The points are not collinear.\n");
     }
-
-    return 0;
   printf("\n--------------------------------\n");
+    return 0;
+
 }
 
