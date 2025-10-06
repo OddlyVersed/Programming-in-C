@@ -1,4 +1,4 @@
-/*Experiment 3.2: Loops  
+/*Experiment 4: Loops  
 1. WAP to enter numbers till the user wants. At the end, it should display the count of 
 positive, negative, and Zeroes entered.*/ 
 #include<stdio.h> 
