@@ -57,4 +57,6 @@ int A[m][n], B[p][q], C[m][q];
         for ( j = 0; j < q; j++) 
             printf("%d ", C[i][j]); 
         printf("\n"); 
-    } 
+    }  
+    return 0;
+}
