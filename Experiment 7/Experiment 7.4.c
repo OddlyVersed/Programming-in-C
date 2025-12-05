@@ -24,9 +24,6 @@ int main() {
     printf("\n--- Present Address (Hostel) ---\n");
     printf("Address stored: %s\n", present_addr.hostel_address);
     printf("--------------------------------\n");
-    
-    // Demonstrate Union concept: Only one member holds valid data at a time.
-    // printf("Name stored now: %s\n", present_addr.name); 
 
     return 0;
 }
