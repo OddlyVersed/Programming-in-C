@@ -16,14 +16,15 @@ int main() {
     printf("Name - Dibyendu Bhattacharjee \nSap Id - 590025721\nCourse - Bsc Computer Science\nBatch - B1");
     printf("\n--------------------------------\n");
 
-    union AddressComponent present_addr;
+    union AddressComponent address;
     
-    printf("Enter your present (Hostel) address: ");
-    scanf(" %[^\n]", present_addr.hostel_address); 
+    printf("Enter your present (Hostel) address in one line: ");
+    scanf(" %[^\n]", address.hostel_address); 
 
-    printf("\n--- Present Address (Hostel) ---\n");
-    printf("Address stored: %s\n", present_addr.hostel_address);
-    printf("--------------------------------\n");
-
+    printf("\n--- Present Address Display ---\n");
+    
+    printf("Hostel Address: %s\n", address.hostel_address);
+    printf("-------------------------------\n");
+    
     return 0;
 }
